@@ -105,6 +105,10 @@ while True:
 
     if choice == "1":
         print("Lütfen pizza seçiminizi yapınız (1-4): ")
+        print("1: Klasik Pizza ")
+        print("2: Margarita Pizza ")
+        print("3: Türk Pizza ")
+        print("4: Dominos Pizza ")
         pizza_choice = input()
 
         if pizza_choice == "1":
@@ -121,6 +125,13 @@ while True:
 
         while True:
             print("Lütfen sos seçiminizi yapınız (11-16) veya çıkmak için 'q' tuşuna basınız: ")
+            print("11: Zeytin ")
+            print("12: Mantarlar ")
+            print("13: Keçi Peyniri ")
+            print("14: Et ")
+            print("15: Soğan ")
+            print("16: Mısır ")
+              
             sos_choice = input()
 
             if sos_choice == "11":
@@ -159,3 +170,5 @@ while True:
     else:
         print("Hatalı seçim yaptınız!")
         continue
+    
+    
